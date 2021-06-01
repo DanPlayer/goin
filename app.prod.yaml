@@ -1,0 +1,27 @@
+appname: goin
+addr: :8099
+doc_auth:
+  admin: 123456
+mysql:
+  dsn: "root:123456@tcp(127.0.0.1:3306)/only_brain?charset=utf8mb4&parseTime=True&loc=Local"
+redis:
+  addr: ''
+  db: 0
+  password: ''
+mongo:
+  db: ""
+  dsn: ''
+gcache:
+  size: 20
+auth:
+  admin_secret: '123456'
+  member_secret: '123456'
+qiniu:
+  access_key: ""
+  secret_key: ""
+  bucket: ""
+  domain: ""
+ali_log:
+  endpoint: ""
+  access_key_id: ""
+  Access_key_secret: ""
